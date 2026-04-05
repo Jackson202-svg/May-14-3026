@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Countdown layout */
+.countdown {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Each box */
+.box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 90px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.box:hover {
+    transform: scale(1.1);
+}
+
+/* Numbers */
+.number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Labels */
+.label {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
